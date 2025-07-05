@@ -41,7 +41,7 @@ last_downtime = None
 
 # === HARD CODED UPTIME CONFIG ===
 UPTIME_CHANNEL_ID = 1391135487502192740  # Replace with your channel ID
-UPTIME_MESSAGE_ID = 123456789012345678  # Replace with your message ID
+UPTIME_MESSAGE_ID = 1391141159472201858  # Replace with your message ID
 
 def format_uptime(delta):
     days = delta.days
