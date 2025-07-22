@@ -1,4 +1,6 @@
 discord.py==2.3.2
-Flask==2.3.3
-pymongo[srv]
-pytz
+asyncpg==0.29.0
+Flask==3.0.3
+psycopg[binary]==3.1.18
+requests==2.32.3
+
