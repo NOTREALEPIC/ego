@@ -12,13 +12,13 @@ from threading import Thread
 
 TOKEN = os.getenv("EPIC")
 DATABASE_URL = os.getenv("DATABASE_URL")
-GUILD_ID = 123456789012345678  # Replace with your server ID
-HELP_CHANNEL_ID = 123456789012345678  # Replace with your help channel
-UPTIME_CHANNEL_ID = 123456789012345678  # Replace with uptime embed channel
-UPTIME_MESSAGE_ID = 123456789012345678  # Replace with embed message ID
-ADMIN_ROLE_ID = 123456789012345678  # Role that can manage shop
-SPS_CHANNEL_ID = 123456789012345678  # #sps channel ID
-GENERAL_CHANNEL_ID = 123456789012345678  # #general for quiz
+GUILD_ID = 1358758393300648126  # Replace with your server ID
+HELP_CHANNEL_ID = 1397199043540680734  # Replace with your help channel
+UPTIME_CHANNEL_ID = 1391135487502192740  # Replace with uptime embed channel
+UPTIME_MESSAGE_ID = 1391141159472201858  # Replace with embed message ID
+ADMIN_ROLE_ID = 1391022167403139192  # Role that can manage shop
+SPS_CHANNEL_ID = 1397199437503398019  # #sps channel ID
+GENERAL_CHANNEL_ID = 1391136130207977562  # #general for quiz
 
 intents = discord.Intents.default()
 intents.message_content = True
